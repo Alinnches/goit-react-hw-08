@@ -1,0 +1,12 @@
+.contactList {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 14px;
+}
+
+.deleteBtn {
+  cursor: pointer;
+  display: block;
+}

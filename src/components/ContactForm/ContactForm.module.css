@@ -1,0 +1,34 @@
+.formContainer {
+  width: 275px;
+  padding: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.contactname,
+.contactnumber {
+  color: rgb(25, 42, 50);
+  font-weight: 700;
+}
+
+.contactField {
+  width: 175px;
+  border-color: black;
+  border-radius: 4px;
+}
+
+.contactField:hover,
+.contactField:focus {
+  border-color: blue;
+}
+
+.errorMessage {
+  color: red;
+}
+
+.addBtn {
+  width: 120px;
+  cursor: pointer;
+  display: block;
+}
