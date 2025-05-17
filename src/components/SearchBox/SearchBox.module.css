@@ -1,10 +1,22 @@
 .searchContainer {
   width: 185px;
   padding: 16px;
+  box-sizing: border-box;
 }
 
 .findLabel {
   display: flex;
   flex-direction: column;
   font-weight: 700;
+}
+
+.searchField {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.searchField:hover,
+.searchField:focus {
+  border-color: rgb(58, 58, 186);
 }

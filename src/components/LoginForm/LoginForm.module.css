@@ -1,33 +1,28 @@
-.formContainer {
-  width: 275px;
-  padding: 16px;
+.form {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 10px;
+  width: 300px;
+  margin: auto;
 }
 
-.contactname,
-.contactnumber {
-  color: rgb(25, 42, 50);
-  font-weight: 700;
-}
-
-.contactField {
+.input {
   padding: 8px;
   border: 1px solid #ccc;
   border-radius: 4px;
 }
 
-.contactField:hover,
-.contactField:focus {
+.input:hover,
+.input:focus {
   border-color: rgb(58, 58, 186);
 }
 
-.errorMessage {
+.error {
   color: red;
+  font-size: 12px;
 }
 
-.addBtn {
+.submitBtn {
   background-color: #4a90e2;
   color: white;
   padding: 10px;
@@ -36,6 +31,6 @@
   cursor: pointer;
 }
 
-.addBtn:hover {
+.submitBtn:hover {
   background-color: #3a7bd5;
 }

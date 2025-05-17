@@ -1,9 +1,9 @@
+import React from "react";
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import { useId } from "react";
-import React from "react";
 import * as Yup from "yup";
 import { useDispatch, useSelector } from "react-redux";
-import { addContact } from "../../redux/contactsSlice";
+import { addContact } from "../../redux/contacts/operations";
 import s from "./ContactForm.module.css";
 
 const initialValues = {
